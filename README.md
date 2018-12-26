@@ -1,6 +1,7 @@
 # Black-Friday-data-analysis-project
 This is to analyse a dataset reagarding BlackFriday, you can download it from Kaggle
 
+dataset was downloaded from https://www.kaggle.com/mehdidag/black-friday/kernels
 
 @authors are Hao Cong (conghao321@vip.qq.com) and Amanda Chiu (chc10258@gmail.com), who study in Tamkang University (Taiwan) in 2018.
 
