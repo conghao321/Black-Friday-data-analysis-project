@@ -18,7 +18,6 @@ In the visualization.py:
 you can find some procedures about visualization, it compares different groups like visualization of the purchase grouped by age and genders. Before that , we use excel to extract some useful data, if you want to do that by python, you can just simply use function : 'groupby'. To demonstrate that, we use it in the result visualization in the 'models and prediction.py'
 
 In the 'models and prediction.py':
-you can find the comparison of differenct models, including 'Linear Regression, Decision Tree, Random Forests and Xgboost', as you can guess, xgboost got the highest score.
+you can find the comparison of differenct models, including 'Linear Regression, Decision Tree, Random Forests and Xgboost', as you can guess, xgboost got the highest score. We also save this xgboost model as model.m file, thus you can easily load it later.
 
 In the result visualization, we also illustrated the prediction of the data 
-
