@@ -12,11 +12,12 @@ However, there may be still many drawbacks or errors, if you find any errors ple
 
 The dataset was 'Black Friday', and it was downloaded from Kaggle.
 
-In the visualization.py, you can find some procedures about visualization, it compares different groups like 'genders'.
+In the visualization.py:
 
-Before that , we use excel to extract some useful data, if you want to do that by python, you can just simply use 'groupby'.
+you can find some procedures about visualization, it compares different groups like visualization of the purchase grouped by age and genders. Before that , we use excel to extract some useful data, if you want to do that by python, you can just simply use function : 'groupby'. To demonstrate that, we use it in the result visualization in the 'models and prediction.py'
 
-While in the models,you can find the comparison of differenct models, including 'Linear Regression, Decision Tree, Random Forests and Xgboost', as you can guess, xgboost got the highest score.
+In the 'models and prediction.py':
+you can find the comparison of differenct models, including 'Linear Regression, Decision Tree, Random Forests and Xgboost', as you can guess, xgboost got the highest score.
 
-In the final part, we also illustrated the prediction of the data 
+In the result visualization, we also illustrated the prediction of the data 
 
