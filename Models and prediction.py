@@ -98,7 +98,7 @@ print(score.mean())
 #xgboost:
 #75
 
-'''
+
 xgboost_model =XGBRegressor(
     objective = 'reg:linear',
     booster= 'gbtree',   
@@ -127,28 +127,20 @@ print(score_women.mean())
 children_kf_total = cross_validation.KFold(len(children_train), n_folds=10,shuffle=True, random_state=4)
 score_children=cross_validation.cross_val_score(xgboost_model, children_train[predictor], children_train[target], cv=children_kf_total, n_jobs=1)
 print(score.mean())
-'''
 
-'''
-0.7547012567982867
-0.7001151551662489
-0.7127012567982867
-'''
 
-'''
 xgboost_model.fit(train[predictor],train[target])
-'''
+
 #save the model
-#joblib.dump(xgboost_model, "xgb_model.m")
+joblib.dump(xgboost_model, "xgb_model.m")
 #load the model
-#clf2 = joblib.load("xgb_model.m")
-#result=clf2.predict(test)
+clf2 = joblib.load("xgb_model.m")
+result=clf2.predict(test)
 
 '''
 logger.info('common:n_estimators=300 learn_rate=0.05:scoremean:'+str(score.mean()))
 logger.info('women:n_estimators=300 learn_rate=0.05:scoremean:'+str(score_women.mean()))
 logger.info('children:n_estimators=300 learn_rate=0.05:scoremean:'+str(score_children.mean()))
-##########
 logger.removeHandler(handler)
 '''
 
